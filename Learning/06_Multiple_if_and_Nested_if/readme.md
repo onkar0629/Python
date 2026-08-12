@@ -1,4 +1,4 @@
-# 🐍 Day 06 - Multiple `if` Statements and Nested `if` Statements
+# 🐍 06 - Multiple `if` Statements and Nested `if` Statements
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![IDE](https://img.shields.io/badge/IDE-PyCharm-green?logo=pycharm)
@@ -30,7 +30,6 @@ These concepts are widely used in real-world applications where multiple conditi
 - Common Mistakes
 - Interview Questions
 - Data Engineering Perspective
-- Summary
 
 ---
 
@@ -177,21 +176,18 @@ Nested conditions are commonly used in data validation pipelines.
 
 ---
 
-# Summary
+## Examples & Practice
 
-After completing this lesson, you should be able to:
+📘 **Examples:** [Open `examples.py`](./examples.py)
 
-- ✅ Write Multiple `if` statements.
-- ✅ Understand when to use Nested `if`.
-- ✅ Differentiate between Multiple `if` and Nested `if`.
-- ✅ Apply decision-making in practical programs.
+📝 **Practice:** [Open `practice.py`](./practice.py)
 
 ---
 
 ## Navigation
 
-🏠 **Home:** [Python Daily Learning Journey](../README.md)
+🏠 **Home:** [Python Learning](../)
 
-⬅️ **Previous:** [Day 05 - Conditional Statements](../Day_05_Conditional_Statements/README.md)
+⬅️ **Previous:** [05 - Conditional Statements](../05_Conditional_Statements/readme.md)
 
-➡️ **Next:** [Day 07 - Loops](../Day_07_Loops/README.md)
+➡️ **Next:** [07 - Loops](../07_Loops/readme.md)
