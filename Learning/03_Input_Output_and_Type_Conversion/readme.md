@@ -366,6 +366,14 @@ print("Average:", average)
 
 ---
 
+## Examples & Practice
+
+📘 **Examples:** [Open `examples.py`](./examples.py)
+
+📝 **Practice:** [Open `practice.py`](./practice.py)
+
+---
+
 ## Navigation
 
 🏠 **Home:** [Python Learning](../)
