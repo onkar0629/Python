@@ -365,12 +365,11 @@ print("Average:", average)
 ### How do you assign values to multiple variables?
 
 ---
----
 
 ## Navigation
 
-🏠 **Home:** [Python Daily Learning Journey](https://github.com/onkar0629/my-data-engineering-journey/tree/main/Python/Daily-Learning)
+🏠 **Home:** [Python Learning](../)
 
-⬅️ **Previous:** [Day 02 - Python Tokens and Variables](https://github.com/onkar0629/my-data-engineering-journey/blob/main/Python/Daily-Learning/Day_02_Python_Tokens_and_Variables/readme.md)
+⬅️ **Previous:** [Day 02 - Python Tokens and Variables](../02_Python_Tokens_and_Variables/readme.md)
 
-➡️ **Next:** [Day 04 - Conditional Statements](https://github.com/onkar0629/my-data-engineering-journey/blob/main/Python/Daily-Learning/Day_04_Conditional_Statements/README.md)
+➡️ **Next:** [Day 04 - Conditional Statements](../04_Conditional_Statements/readme.md)
