@@ -1,4 +1,4 @@
-# 🐍 Day 04 - Operators
+# 🐍 04 - Operators
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![IDE](https://img.shields.io/badge/IDE-PyCharm-green?logo=pycharm)
@@ -27,7 +27,6 @@ In this lesson, you'll learn the different types of operators in Python and how 
 - Common Mistakes
 - Interview Questions
 - Data Engineering Perspective
-- Summary
 
 ---
 
@@ -361,7 +360,7 @@ Arithmetic, Relational, Logical, Assignment, Shorthand Assignment, and Membershi
 
 ### What is the difference between `/` and `//`?
 
-`/` returns the exact division result as a float, whereas `//` returns the floor (integer) quotient.
+`/` returns the exact division result as a float, whereas `//` returns the floor quotient.
 
 ### What does the modulus (`%`) operator do?
 
@@ -394,23 +393,18 @@ A strong understanding of operators is essential before learning conditional sta
 
 ---
 
-# Summary
+## Examples & Practice
 
-After completing this lesson, you should be able to:
+📘 **Examples:** [Open `examples.py`](./examples.py)
 
-- ✅ Explain what operators are.
-- ✅ Perform arithmetic calculations.
-- ✅ Compare values using relational operators.
-- ✅ Combine conditions using logical operators.
-- ✅ Use assignment and shorthand assignment operators.
-- ✅ Check membership using `in` and `not in`.
+📝 **Practice:** [Open `practice.py`](./practice.py)
 
 ---
 
 ## Navigation
 
-🏠 **Home:** [Python Daily Learning Journey](../README.md)
+🏠 **Home:** [Python Learning](../)
 
-⬅️ **Previous:** [Day 03 - Input, Output and Type Conversion](../Day_03_Input_Output_and_Type_Conversion/README.md)
+⬅️ **Previous:** [03 - Input, Output and Type Conversion](../03_Input_Output_and_Type_Conversion/readme.md)
 
-➡️ **Next:** [Day 05 - Conditional Statements](../Day_05_Conditional_Statements/README.md)
+➡️ **Next:** [05 - Conditional Statements](../05_Conditional_Statements/readme.md)
