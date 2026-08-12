@@ -433,61 +433,47 @@ interpreter recognizes.
 
 **Example:**
 
-``` python
+```python
 age = 25
 ```
 
-Tokens: - `age` → Identifier - `=` → Operator - `25` → Literal
+Tokens:
+- `age` → Identifier
+- `=` → Operator
+- `25` → Literal
 
-------------------------------------------------------------------------
+---
 
 ## 2. What are the five types of tokens?
 
-  -------------------------------------------------------------------------
-  Token Type                 Description                 Example
-  -------------------------- --------------------------- ------------------
-  Keywords                   Reserved words with         `if`, `for`,
-                             predefined meanings         `while`, `True`
+| Token Type | Description | Example |
+|---|---|---|
+| Keywords | Reserved words with predefined meanings | `if`, `for`, `while`, `True` |
+| Identifiers | Names given to variables, functions, classes, etc. | `age`, `student_name` |
+| Literals | Fixed values | `100`, `"Hello"`, `3.14`, `True` |
+| Operators | Symbols that perform operations | `+`, `-`, `*`, `/`, `%` |
+| Delimiters (Separators/Punctuators) | Symbols used to separate code elements | `()`, `[]`, `{}`, `:`, `,` |
 
-  Identifiers                Names given to variables,   `age`,
-                             functions, classes, etc.    `student_name`
-
-  Literals                   Fixed values                `100`, `"Hello"`,
-                                                         `3.14`, `True`
-
-  Operators                  Symbols that perform        `+`, `-`, `*`,
-                             operations                  `/`, `%`
-
-  Delimiters                 Symbols used to separate    `()`, `[]`, `{}`,
-  (Separators/Punctuators)   code elements               `:`, `,`
-  -------------------------------------------------------------------------
-
-------------------------------------------------------------------------
+---
 
 ## 3. What is the difference between a literal and a variable?
 
-  -----------------------------------------------------------------------
-  Literal                             Variable
-  ----------------------------------- -----------------------------------
-  A fixed value written directly in   A named location that stores a
-  the code.                           value.
-
-  Cannot change by itself.            Its value can change during program
-                                      execution.
-
-  Examples: `10`, `"Python"`, `True`  Examples: `x`, `name`, `price`
-  -----------------------------------------------------------------------
+| Literal | Variable |
+|---|---|
+| A fixed value written directly in the code. | A named location that stores a value. |
+| Cannot change by itself. | Its value can change during program execution. |
+| Examples: `10`, `"Python"`, `True` | Examples: `x`, `name`, `price` |
 
 **Example:**
 
-``` python
+```python
 age = 21
 ```
 
--   `21` → Literal
--   `age` → Variable
+- `21` → Literal
+- `age` → Variable
 
-------------------------------------------------------------------------
+---
 
 ## 4. What is an identifier?
 
@@ -496,7 +482,7 @@ classes, modules, and other objects in Python.
 
 **Examples:**
 
-``` python
+```python
 name = "Onkar"
 marks = 90
 
@@ -504,23 +490,26 @@ def calculate_sum():
     pass
 ```
 
-Identifiers: - `name` - `marks` - `calculate_sum`
+Identifiers:
+- `name`
+- `marks`
+- `calculate_sum`
 
-------------------------------------------------------------------------
+---
 
 ## 5. What are the rules for naming identifiers?
 
-1.  Must begin with a letter (`A-Z`, `a-z`) or underscore (`_`).
-2.  Cannot begin with a digit.
-3.  Can contain letters, digits, and underscores.
-4.  Cannot contain spaces.
-5.  Cannot contain special characters like `@`, `#`, `$`, `%`.
-6.  Cannot be a Python keyword.
-7.  Python identifiers are **case-sensitive**.
+1. Must begin with a letter (`A-Z`, `a-z`) or underscore (`_`).
+2. Cannot begin with a digit.
+3. Can contain letters, digits, and underscores.
+4. Cannot contain spaces.
+5. Cannot contain special characters like `@`, `#`, `$`, `%`.
+6. Cannot be a Python keyword.
+7. Python identifiers are **case-sensitive**.
 
 ### Valid identifiers
 
-``` python
+```python
 student
 student_name
 _marks
@@ -529,14 +518,14 @@ age1
 
 ### Invalid identifiers
 
-``` python
+```python
 1student      # Starts with digit
 student-name  # Hyphen not allowed
 class         # Keyword
 student name  # Space not allowed
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 6. What is the assignment operator?
 
@@ -545,97 +534,79 @@ variable.
 
 **Syntax:**
 
-``` python
+```python
 variable = value
 ```
 
 **Example:**
 
-``` python
+```python
 x = 10
 name = "Onkar"
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 7. What is the difference between `/` and `//`?
 
-  -----------------------------------------------------------------------
-  `/`                              `//`
-  -------------------------------- --------------------------------------
-  Performs floating-point          Performs floor (integer) division.
-  division.                        
-
-  Returns a float.                 Returns the quotient rounded down.
-  -----------------------------------------------------------------------
+| `/` | `//` |
+|---|---|
+| Performs floating-point division. | Performs floor division. |
+| Returns a float. | Returns the quotient rounded down. |
 
 **Example:**
 
-``` python
+```python
 print(10 / 3)   # 3.3333333333333335
 print(10 // 3)  # 3
 print(9 // 2)   # 4
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 8. What is the difference between `%` and `//`?
 
-  `%` (Modulo)             `//` (Floor Division)
-  ------------------------ --------------------------------------------
-  Returns the remainder.   Returns the quotient after floor division.
+| `%` (Modulo) | `//` (Floor Division) |
+|---|---|
+| Returns the remainder. | Returns the quotient after floor division. |
 
 **Example:**
 
-``` python
+```python
 print(10 % 3)   # 1
 print(10 // 3)  # 3
 ```
 
 Explanation:
 
-    10 = (3 × 3) + 1
+```text
+10 = (3 × 3) + 1
+```
 
--   `//` → Quotient = **3**
--   `%` → Remainder = **1**
+- `//` → Quotient = **3**
+- `%` → Remainder = **1**
 
-------------------------------------------------------------------------
+---
 
 # Quick Interview Revision
 
-  -----------------------------------------------------------------------
-  Question                      Short Answer
-  ----------------------------- -----------------------------------------
-  What is a token?              The smallest meaningful unit of a Python
-                                program.
-
-  Five types of tokens?         Keywords, Identifiers, Literals,
-                                Operators, Delimiters.
-
-  Literal vs Variable           Literal is a fixed value; a variable
-                                stores values.
-
-  Identifier                    Name given to variables, functions,
-                                classes, etc.
-
-  Identifier rules              Start with letter/\_; no keywords; no
-                                spaces; case-sensitive.
-
-  Assignment operator           `=` assigns a value to a variable.
-
-  `/` vs `//`                   `/` returns float division; `//` returns
-                                floor division.
-
-  `%` vs `//`                   `%` returns remainder; `//` returns
-                                quotient (floor).
-  -----------------------------------------------------------------------
+| Question | Short Answer |
+|---|---|
+| What is a token? | The smallest meaningful unit of a Python program. |
+| Five types of tokens? | Keywords, Identifiers, Literals, Operators, Delimiters. |
+| Literal vs Variable | Literal is a fixed value; a variable stores values. |
+| Identifier | Name given to variables, functions, classes, etc. |
+| Identifier rules | Start with letter/`;` or `_`; no keywords; no spaces; case-sensitive. |
+| Assignment operator | `=` assigns a value to a variable. |
+| `/` vs `//` | `/` returns float division; `//` returns floor division. |
+| `%` vs `//` | `%` returns remainder; `//` returns quotient (floor). |
 
 ---
 
 ## Navigation
 
-🏠 **Home:** [Python Roadmap](https://github.com/onkar0629/my-data-engineering-journey/tree/main/Python/Daily-Learning)
+🏠 **Home:** [Python Learning](../)
 
-⬅️ **Previous:** [Day 01 - Introduction to Python](https://github.com/onkar0629/my-data-engineering-journey/blob/main/Python/Daily-Learning/Day_01_Introduction_to_Python/README.md)
+⬅️ **Previous:** [Day 01 - Introduction to Python](../01_Introduction_to_Python/README.md)
 
-➡️ **Next:** [Day 03 - Input, Output and Type Conversion](https://github.com/onkar0629/my-data-engineering-journey/blob/main/Python/Daily-Learning/Day_03_Input_Output_and_Type_Conversion/README.md)
+➡️ **Next:** [Day 03 - Input, Output and Type Conversion](../03_Input_Output_and_Type_Conversion/README.md)
