@@ -237,6 +237,6 @@ Because it supports multiple programming paradigms and can be used to build many
 
 ## Navigation
 
-🏠 **Home:** [Python Roadmap](https://github.com/onkar0629/my-data-engineering-journey/tree/main/Python/Daily-Learning)
+🏠 **Home:** [Python Learning](../)
 
-➡️ **Next:** [Day 02 - Python Tokens and Variables](https://github.com/onkar0629/my-data-engineering-journey/blob/main/Python/Daily-Learning/Day_02_Python_Tokens_and_Variables/readme.md)
+➡️ **Next:** [Day 02 - Python Tokens and Variables](../02_Python_Tokens_and_Variables/README.md)
